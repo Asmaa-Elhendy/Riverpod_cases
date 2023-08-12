@@ -9,6 +9,7 @@ import 'package:study_riverpod/screens/methods/streamProvider_firebase.dart';
 import '../widgets/home_button.dart';
 import 'change_notifier_provider.dart';
 import 'combinigProvider.dart';
+import 'new_example.dart';
 
 final nameProvider = Provider<String>((ref) => 'asmaa');
 
@@ -41,6 +42,7 @@ class HomeScreen extends ConsumerWidget {
              customButton(context, 'streamProvider_firebase', StreamProviderFirebase()),
              customButton(context, 'CombiningProvider', CombinigProvider()),
              customButton(context, 'ChangeNotifierProvider', ChangeNotifierPage()),
+             customButton(context, 'Example of Riverpod', NewExample()),
            ],
          ),
        ],
